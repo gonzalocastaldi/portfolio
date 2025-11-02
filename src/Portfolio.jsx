@@ -6,23 +6,25 @@ function Portfolio() {
   return (
     <div className="min-h-screen bg-slate-950 text-white flex items-center justify-center p-6">
       <div className="max-w-2xl w-full">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
-          <div className="flex justify-center md:justify-end">
+        <div className="flex flex-col items-center gap-8 mb-12">
+          <div className="flex justify-center">
             <div className="w-48 h-48 md:w-56 md:h-56 rounded-lg overflow-hidden border-2 border-slate-700 hover:border-slate-500 transition-colors">
               <img
                 src={profileJpeg}
-                alt="Foto de Gonzalo Castaldi"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-4 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-bold">Gonzalo Castaldi</h1>
-            <p className="text-slate-400 text-lg">Programador Junior</p>
+            <p className="text-slate-400 text-lg">21 años, Estudiante Licenciatura en Sistemas</p>
             <p className="text-slate-300 leading-relaxed">
-              Reemplaza este texto con tu presentación personal. Cuéntale al mundo quién eres,
-              qué haces y por qué eres un gran desarrollador.
+              Mi nombre es Gonzalo Castaldi, tengo 21 años y soy estudiante avanzado de la carrera de Lincenciatura en Sistemas en
+              la Universidad ORT Uruguay. Actualmente estoy cursando mis últimos semestres de la carrera y estoy buscando
+              una oportunidad para empezar mi carrera profesional como programador. Estoy interesado en el desarrollo de software y en
+              la creación de aplicaciones web y móviles. Actualmente estoy trabajando en un proyecto personal de una aplicación
+              web estilo Fantasy Football, donde los usuarios pueden crear sus propias ligas y equipos para competir entre ellos.
             </p>
           </div>
         </div>
@@ -30,9 +32,7 @@ function Portfolio() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
           <a
             href="https://gonzalocastaldi.com/yorugua"
-            target="_blank"
             rel="noopener noreferrer"
-            aria-label="Abrir Mi Proyecto (se abre en una nueva pestaña)"
             className="flex items-center justify-center gap-2 px-6 py-3 bg-slate-800 hover:bg-slate-700 text-white rounded-lg transition-colors border border-slate-700 hover:border-slate-600"
           >
             <ExternalLink size={20} aria-hidden="true" />
@@ -40,21 +40,20 @@ function Portfolio() {
           </a>
 
           <a
-            href="https://gonzalocastaldi.com/cv"
+            href="https://digil.ink/s/167d6efb-95f5-421d-86a4-e24cc7f5be3d"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Descargar CV (se abre en una nueva pestaña)"
             className="flex items-center justify-center gap-2 px-6 py-3 bg-slate-800 hover:bg-slate-700 text-white rounded-lg transition-colors border border-slate-700 hover:border-slate-600"
+            aria-label="Descargar CV (se abre en una nueva pestaña)"
           >
             <FileText size={20} aria-hidden="true" />
-            <span>Descargar CV</span>
+            <span>Ver CV</span>
           </a>
 
           <a
             href="https://www.linkedin.com/in/gonzalo-castaldi-11a3811aa/"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Abrir perfil de LinkedIn (se abre en una nueva pestaña)"
             className="flex items-center justify-center gap-2 px-6 py-3 bg-slate-800 hover:bg-slate-700 text-white rounded-lg transition-colors border border-slate-700 hover:border-slate-600"
           >
             <svg
