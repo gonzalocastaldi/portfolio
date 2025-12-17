@@ -1,0 +1,20 @@
+.projects-section {
+  min-height: 100vh;
+  background-color: #030617;
+  padding: 60px 20px;
+}
+
+.projects-title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}

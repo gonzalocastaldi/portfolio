@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { ProjectComponent } from '../../components/project/project.component';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-projects',
   imports: [ProjectComponent],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  templateUrl: './projects.component.html',
+  styleUrl: './projects.component.css'
 })
-export class HomeComponent {
+export class ProjectsComponent {
 }

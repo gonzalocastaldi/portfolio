@@ -1,0 +1,100 @@
+/* Hero Section - ocupa toda la pantalla */
+.hero {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #030617;
+  padding: 20px;
+}
+
+/* Contenedor del contenido */
+.hero-content {
+  max-width: 800px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Imagen de perfil - circular */
+.hero-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+  border: 3px solid #4a90a4;
+  margin-bottom: 20px;
+}
+
+/* Titulo principal */
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+}
+
+/* Subtitulo */
+.hero-content h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #4a90a4;
+  margin-bottom: 20px;
+}
+
+/* Parrafo de descripcion */
+.hero-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #b0b0b0;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+/* Contenedor de botones */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* Estilo base de botones y enlaces */
+.hero-buttons button,
+.hero-buttons .btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: 2px solid #4a90a4;
+  background-color: transparent;
+  color: #4a90a4;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+/* Efecto hover en botones y enlaces */
+.hero-buttons button:hover,
+.hero-buttons .btn:hover {
+  background-color: #4a90a4;
+  color: #ffffff;
+}
+
+/* Projects Section */
+.projects-section {
+  background-color: #030617;
+  padding: 60px 20px;
+}
+
+.projects-title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
